@@ -1,0 +1,15 @@
+.navbar-wrapper {
+    background: none;
+    color: #282c34;
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+}
+
+.navbar-link {
+    color:#282c34;
+    background-color: yellow;
+    margin: 10px 10px 10px 10px;
+    cursor: pointer;
+
+}

@@ -1,0 +1,8 @@
+.body {
+    background-image: url("../images/background_main3.PNG");
+    height: 100vh;
+    width: 100vw;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
