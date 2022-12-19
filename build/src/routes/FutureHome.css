@@ -1,0 +1,17 @@
+.body {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 200vh;
+    padding: 0px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
+    border: none;
+    background-color: #67716b;
+}
+
+.slide-wrapper {
+    padding: 0px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
+    top: 0;
+    position: sticky;
+}

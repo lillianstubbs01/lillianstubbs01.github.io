@@ -1,8 +1,130 @@
-.body {
-    background-image: url("../images/background_main3.PNG");
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Mega:wght@100&family=Poppins:wght@300&display=swap');
+
+:root {
+    --profile-wrapper-width: 74vw;
+}
+.profile-pic {
+    width: auto;
+    height: 70vh !important;
+}
+
+.background {
+    background: url("../images/background_main3.PNG") no-repeat center center fixed;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -1;
     height: 100vh;
     width: 100vw;
-    background-repeat: no-repeat;
+    min-height: 100%;
+    min-width: 100%;
     background-size: cover;
-    background-position: center center;
+    border: none;
+}
+
+.body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+
+}
+
+.profile-txt-box {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    vertical-align: middle;
+    text-align: left;
+    color: #4b4b4b;
+    font-size: large;
+    height: fit-content;
+    width: 40vw;
+    border: 9px solid #76807b;
+    margin-right: 30px;
+    padding: 0px 30px 0px 30px;
+}
+
+.profile-txt-box > h1 {
+    /*font-family: 'Maitree', serif;*/
+    /*font-family: 'Megrim', cursive;*/
+    /*font-family: 'Ledger', serif;*/
+    /*font-family: 'Scope One', serif;*/
+    /*font-family: 'Cormorant Unicase', serif;*/
+    /*font-family: 'Source Serif Pro', serif;*/
+    /*font-family: 'Amatic SC', cursive;*/
+    /*    font-family: 'Permanent Marker', cursive;*/
+    /*font-family: 'Hachi Maru Pop', cursive;*/
+    /*font-family: 'Stint Ultra Expanded', cursive;*/
+    font-family: 'Lexend Mega', sans-serif;
+    font-size: 55px;
+}
+
+.profile-txt-box > p {
+    font-family: 'Poppins', sans-serif;
+}
+
+.profile-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 74vw;
+    margin-top: 10vh;
+}
+
+label {
+    font-family: "Poppins", sans-serif;
+    font-size: 20px;
+    color: #4b4b4b;
+}
+
+.resume-button {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    row-gap: 0px;
+    height: 50px;
+    align-items: center;
+
+}
+
+.resume-button a {
+    background-color: #696969;
+    color: white;
+    border: solid 4px #4b4b4b;
+    border-radius: 10px 0px 0px 10px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    text-decoration: none;
+    width: 200px;
+    height: 30px;
+    text-align: center;
+}
+
+.flex-top-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: flex-start;
+}
+
+select {
+    appearance: none;
+    background-color: transparent;
+    border: none;
+    padding: 0 1em 0 0;
+    margin: 0;
+    width: 100%;
+    font-family: inherit;
+    font-size: inherit;
+    cursor: inherit;
+    line-height: inherit;
+    outline: none;
+}
+
+select::-ms-expand {
+    display: none;
 }
