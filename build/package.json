@@ -1,7 +1,7 @@
 {
   "name": "build",
   "version": "0.1.0",
-  "homepage": "https://lillianstubbs01.github.io",
+  "homepage": "https://lillianstubbs01.github.io/react-gh-pages",
   "private": true,
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.1.1",
